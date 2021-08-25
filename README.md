@@ -10,7 +10,7 @@
 KKFileBrowser工具常用于开发调试，可以帮我们开发者快速导出APP项目文件。也可以快速预览文件内容，支持的格式有音视频、word文档、PPT、图像等。基于FMDB，我在里面加了快速预览数据库的功能，可以直接把表单呈现出来，对数据进行修改删除操作。
 
 ### 效果
-[![http://xwqs1.oss-cn-hangzhou.aliyuncs.com/file/img/2021-08-12/16287711492461628771149246000.png](http://xwqs1.oss-cn-hangzhou.aliyuncs.com/file/img/2021-08-12/16287711492461628771149246000.png "http://xwqs1.oss-cn-hangzhou.aliyuncs.com/file/img/2021-08-12/16287711492461628771149246000.png")](http://xwqs1.oss-cn-hangzhou.aliyuncs.com/file/img/2021-08-12/16287711492461628771149246000.png "http://xwqs1.oss-cn-hangzhou.aliyuncs.com/file/img/2021-08-12/16287711492461628771149246000.png")
+<img src="https://pic4.zhimg.com/80/v2-580b80d35ca2cd21586c18eb448e811b.jpg">
 
 ------------
 
