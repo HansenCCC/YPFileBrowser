@@ -21,7 +21,7 @@ KKFileBrowser依赖FMDB、MJExtension。
 1、首先Podfile导入
 ```
 #建议在使用的时候指定版本号
-pod 'KKFileBrowser'
+pod 'KKFileBrowser', '~> 1.0.5'
 ```
 2、工程使用
 ```objective-c
