@@ -50,7 +50,7 @@
 		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */; };
 		85ECA6E0E932F3C5D050136C8BA43A81 /* KKFileBrowserDatabaseItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555A4EEB3BF5C02BDE81C099DA44A47C /* KKFileBrowserDatabaseItemViewController.m */; };
 		8709683BBA252479B78155C5887A5290 /* KKFileBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9652FDE152038479C5E2F039B8FACA05 /* KKFileBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		886861C6D7C5A4CB8294682A76831641 /* KKFileListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		886861C6D7C5A4CB8294682A76831641 /* KKFileListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */; settings = {ATTRIBUTES = (Project, Public, ); }; };
 		88943ADCA322857A9325BB8D8F5628C3 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ACD3F249DD69BF590171EBA43E87AA1 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3E22C5BCC8642C2FAE60E540947C4A /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9014B25BE28259FF2739BE7442C5EE19 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */; };
@@ -147,16 +147,16 @@
 		10A19AAA6409353EB1EDF4CC30FE58CF /* KKFileBrowserDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKFileBrowserDatabase.m; sourceTree = "<group>"; };
 		12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFileListViewController.h; path = KKFileBrowser/Classes/KKFileListViewController.h; sourceTree = "<group>"; };
 		176BB1E1AD6D2718B09764B4004E0892 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		18B23B67B95179E8B4DAD6B253336430 /* KKFileBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKFileBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18B23B67B95179E8B4DAD6B253336430 /* KKFileBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKFileBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1BBCEA747363410B4B06B219AADE2819 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
-		1C789BBA353271B9D73F363D2770056A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1C789BBA353271B9D73F363D2770056A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1F2599BF87BF0D4F97C540E767C598D0 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		1FF8AE19332D26C41EAC9379978C41EB /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
 		27650FCAE91615B7FEA8B815F7037E5F /* Pods-KKFileBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKFileBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA1D181B24560AE97C0B6847FDCDC54 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		358F263AC710CA8E01DEB14FCD4331BE /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
 		365D23B73E637CD1A9A248BC3D0BB458 /* NSString+KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KKFileBrowser.h"; path = "KKFileBrowser/Classes/NSString+KKFileBrowser.h"; sourceTree = "<group>"; };
 		3DEF3EDEE401B064EEE5DAE7E6CF151A /* KKFileBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFileBrowser.debug.xcconfig; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		48B5FEB6509844201783EC3D9DA1DEF1 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		498B312D18D7CD3A31E892A0D81BF365 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		49BDDF05C772A8F87DEDE3E31C0254FA /* ResourceBundle-KKFileBrowser-KKFileBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KKFileBrowser-KKFileBrowser-Info.plist"; sourceTree = "<group>"; };
-		4E3B3202EA6F7C5130BFA469A5A4FBA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E3B3202EA6F7C5130BFA469A5A4FBA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
 		54B512B98254AE4DAA9296CC3E3FF6AE /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
 		555A4EEB3BF5C02BDE81C099DA44A47C /* KKFileBrowserDatabaseItemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KKFileBrowserDatabaseItemViewController.m; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 		5F37A3AB3252FCDEEAE4670BC052DDBF /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		60359B58B4451A73D59F164230CF7691 /* Pods-KKFileBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKFileBrowser_Example-Info.plist"; sourceTree = "<group>"; };
 		644F1FA75B85F897572F9646B5B9D0B7 /* kk_icon_fileZip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileZip.png; path = KKFileBrowser/Assets/kk_icon_fileZip.png; sourceTree = "<group>"; };
-		68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKFileBrowser_Example.framework; path = "Pods-KKFileBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68196F2481D4399A61A7219ED86986D1 /* Pods_KKFileBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKFileBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C0A1B1ED0684E264370121369AF4E8 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		6E07CD55FEA32922C523DEADEDD8D513 /* Pods-KKFileBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKFileBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6E6A2437A3C88F5BAAD480D30633A4A5 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		873B327294C80639A17CB5653D0FA2C9 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		8BEAFFE74F097F5E1B2BAEE06579318A /* kk_icon_fileUnknow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileUnknow.png; path = KKFileBrowser/Assets/kk_icon_fileUnknow.png; sourceTree = "<group>"; };
 		92456538ED53282E371F2AE0121C9301 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKFileBrowser.framework; path = KKFileBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9541F1E2D4E014671FC8FE3E73BC087C /* KKFileBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKFileBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D92A35DA9DE00AA5037F9A7A2F70E8 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		95EA3935A4950E76E5CABDD8D8FB6885 /* KKFileBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKFileBrowser-Info.plist"; sourceTree = "<group>"; };
 		9652FDE152038479C5E2F039B8FACA05 /* KKFileBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-umbrella.h"; sourceTree = "<group>"; };
@@ -199,13 +199,13 @@
 		995A1410CDF70F964D733161404BEECA /* KKFileDirectoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKFileDirectoryViewController.m; path = KKFileBrowser/Classes/KKFileDirectoryViewController.m; sourceTree = "<group>"; };
 		9AF3AC4801F4B8B265D675A03CF68289 /* KKFileBrowserDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KKFileBrowserDatabase.h; sourceTree = "<group>"; };
 		9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFileBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFileBrowserInfo.h; path = KKFileBrowser/Classes/KKFileBrowserInfo.h; sourceTree = "<group>"; };
 		A07F4AA5AC83469826F351211ABF1DC0 /* KKFileBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-prefix.pch"; sourceTree = "<group>"; };
 		A20D6F2AE85E36DCB8FCCC8B23A3CD70 /* kk_icon_fileImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileImage.png; path = KKFileBrowser/Assets/kk_icon_fileImage.png; sourceTree = "<group>"; };
 		A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48D5F448F7B7671AB9EA86E7FB3C8B2 /* kk_icon_fileDic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileDic.png; path = KKFileBrowser/Assets/kk_icon_fileDic.png; sourceTree = "<group>"; };
 		A655E2D3AF525A074728E9756CB11247 /* UIImage+KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KKFileBrowser.h"; path = "KKFileBrowser/Classes/UIImage+KKFileBrowser.h"; sourceTree = "<group>"; };
 		A7E7AA49AC6D38FCF3ACDBCD1E82F508 /* KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFileBrowser.h; path = KKFileBrowser/Classes/KKFileBrowser.h; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 		C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKFileBrowserInfo.m; path = KKFileBrowser/Classes/KKFileBrowserInfo.m; sourceTree = "<group>"; };
 		C2228852AC32A691DEBF8231C8D338AF /* kk_icon_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_right.png; path = KKFileBrowser/Assets/kk_icon_right.png; sourceTree = "<group>"; };
 		C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKFileBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
-		C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KKFileBrowser.bundle; path = "KKFileBrowser-KKFileBrowser.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKFileBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		CE4E360A89E97C49291AFC5F3E20662C /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		D0A29AA9B1F89A5FA37890CFE25729BA /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
@@ -365,7 +365,6 @@
 				5466FA72B80DBD902B8555DD42091EF7 /* standard */,
 				DB7B939A07F3976627002425DC2C13BE /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -447,7 +446,6 @@
 				219F20480BB2B48C536257B4904F72F3 /* NSString+MJExtension.m */,
 				334A26C0B02F74F237170F6BC9BE9B43 /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -516,7 +514,6 @@
 				57D900473D35E33967EAF1E6D4141DDC /* KKFileBrowserDatabaseItemCell.h */,
 				E3BEA42BDDF46B965EFF931492D9E733 /* KKFileBrowserDatabaseItemCell.m */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -557,7 +554,6 @@
 				D43E35C8BE7FA28ECE905D59C823163B /* KKFileBrowserDatabaseColumnModel.h */,
 				FC654FB8FCE0910F9EC6FD462E843C5D /* KKFileBrowserDatabaseColumnModel.m */,
 			);
-			name = Database;
 			path = Database;
 			sourceTree = "<group>";
 		};
@@ -1283,8 +1279,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
