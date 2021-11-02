@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KKFileBrowserInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+@interface KKFileBrowserInfo : NSObject
+
+@property (nonatomic, copy) NSString *fileName;
+@property (nonatomic, copy) NSString *filePath;
+@property (nonatomic, copy) NSString *fileSize;
+@property (nonatomic, copy) NSString *fileImageName;
+@property (nonatomic, copy) NSDictionary *fileInfo;
+
+/// 快速初始化
+/// @param name 文件名字
+/// @param path 路径
+- (instancetype)initWithName:(NSString *)name path:(NSString *)path;
+
+@end
 
 @interface KKFileDirectoryViewController : UIViewController
 

@@ -44,7 +44,7 @@
 		6D4CBF92CDCBCE42EBCC1AD171543B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39905F01BDC047BE28FBE0EF15925F /* Foundation.framework */; };
 		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74C6FD1DD2EA900801CE4697652101D5 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E41FE46785ADB644C65483F4DF5929C /* MJFoundation.m */; };
-		7517DE523F2166E0D1DC243DFF0F3451 /* KKFileBrowserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */; };
+		7517DE523F2166E0D1DC243DFF0F3451 /* KKFileBrowserInfo+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo+KKFileBrowser.m */; };
 		767D293C87E421B948434F791F4F0192 /* kk_icon_fileTxt.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CF7D8D8DA3FAE18F80A998D8DCDB48 /* kk_icon_fileTxt.png */; };
 		76856D452328904F6381ADB34682A0A5 /* kk_icon_fileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A20D6F2AE85E36DCB8FCCC8B23A3CD70 /* kk_icon_fileImage.png */; };
 		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AE12EF1BF1B446F9EFA7858329DC3 /* FMDB-dummy.m */; };
@@ -86,7 +86,7 @@
 		F39DFC8A2A7131DEAEED87E26590E60A /* UIImage+KKFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB03F52C12D8E316DE54BF1D25D7659 /* UIImage+KKFileBrowser.m */; };
 		F45104F1C813F95CEB4E66B03545042D /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D46E67B5AAAFFCCE44B57B70C38502 /* FMDB.framework */; };
 		F4EA9C5B62C77A573A40121C5BAB93AF /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CA91D5756C16BCC79C080B00733C970E /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5B9FB7595A55A12F260C8F972F411F1 /* KKFileBrowserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B9FB7595A55A12F260C8F972F411F1 /* KKFileBrowserInfo+KKFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo+KKFileBrowser.h */; };
 		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE482612ACB63C86DC3C040B8657E1 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
@@ -201,7 +201,7 @@
 		9CD2FD03D5213FFB04BCA688B5589CA6 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0AB5E69EA07921E3FC3782FF505417 /* Pods-KKFileBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKFileBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKFileBrowserInfo.h; path = KKFileBrowser/Classes/KKFileBrowserInfo.h; sourceTree = "<group>"; };
+		9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo+KKFileBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KKFileBrowserInfo+KKFileBrowser.h"; path = "KKFileBrowser/Classes/KKFileBrowserInfo+KKFileBrowser.h"; sourceTree = "<group>"; };
 		A07F4AA5AC83469826F351211ABF1DC0 /* KKFileBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKFileBrowser-prefix.pch"; sourceTree = "<group>"; };
 		A20D6F2AE85E36DCB8FCCC8B23A3CD70 /* kk_icon_fileImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileImage.png; path = KKFileBrowser/Assets/kk_icon_fileImage.png; sourceTree = "<group>"; };
 		A308D2AA4119A37B963275D93EBCA2FD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
@@ -221,7 +221,7 @@
 		B8709B5CD2A8D2E3D883A57360443F45 /* KKFileBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKFileBrowser.release.xcconfig; sourceTree = "<group>"; };
 		B9E2A5FB7321E0F7796AEDAF4F5F7F42 /* kk_icon_fileWeb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_fileWeb.png; path = KKFileBrowser/Assets/kk_icon_fileWeb.png; sourceTree = "<group>"; };
 		BEE11EBBBE7EB8F9893B5CCF845AA97B /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKFileBrowserInfo.m; path = KKFileBrowser/Classes/KKFileBrowserInfo.m; sourceTree = "<group>"; };
+		C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo+KKFileBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KKFileBrowserInfo+KKFileBrowser.m"; path = "KKFileBrowser/Classes/KKFileBrowserInfo+KKFileBrowser.m"; sourceTree = "<group>"; };
 		C2228852AC32A691DEBF8231C8D338AF /* kk_icon_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = kk_icon_right.png; path = KKFileBrowser/Assets/kk_icon_right.png; sourceTree = "<group>"; };
 		C4645F51F5AE6FF92CA741A7E96A0CC7 /* Pods-KKFileBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKFileBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
 		C4B361EA94E8D607A415A35FAC8CBD3E /* KKFileBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKFileBrowser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,8 +316,8 @@
 				A7E7AA49AC6D38FCF3ACDBCD1E82F508 /* KKFileBrowser.h */,
 				F84A7349303279DA2F14CF05480E31C1 /* KKFileBrowserCollectionViewCell.h */,
 				40260AE0193CC1259C61CA80230FA14A /* KKFileBrowserCollectionViewCell.m */,
-				9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo.h */,
-				C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo.m */,
+				9FCAAA32B9EBE07A57512B0A9E54DEE2 /* KKFileBrowserInfo+KKFileBrowser.h */,
+				C047AF6EA64FFD37E6653A6CC9DFBCC8 /* KKFileBrowserInfo+KKFileBrowser.m */,
 				EA421ADCA3C7084058BDB579287A0D3E /* KKFileDirectoryViewController.h */,
 				995A1410CDF70F964D733161404BEECA /* KKFileDirectoryViewController.m */,
 				12F1A3C3925B2F4C5C29BFDF3DAFB4A0 /* KKFileListViewController.h */,
@@ -591,7 +591,7 @@
 				3309AFDC2ED4BD1489366F3ED045665F /* KKFileBrowserDatabaseItemCell.h in Headers */,
 				95588833C6C1CEAF29E562D5A5987408 /* KKFileBrowserDatabaseItemViewController.h in Headers */,
 				AA4704734A14ADB0C89B06468FB1CC0B /* KKFileBrowserDatabaseTableViewController.h in Headers */,
-				F5B9FB7595A55A12F260C8F972F411F1 /* KKFileBrowserInfo.h in Headers */,
+				F5B9FB7595A55A12F260C8F972F411F1 /* KKFileBrowserInfo+KKFileBrowser.h in Headers */,
 				D01176F28177C65FC2F2C3C7E6112B5E /* KKFileDirectoryViewController.h in Headers */,
 				886861C6D7C5A4CB8294682A76831641 /* KKFileListViewController.h in Headers */,
 				0D39B2CEDDFE16E1D654E39F1591D493 /* KKQLPreviewController.h in Headers */,
@@ -850,7 +850,7 @@
 				6713B0DC2A3F99A804636E998099BDB1 /* KKFileBrowserDatabaseItemCell.m in Sources */,
 				85ECA6E0E932F3C5D050136C8BA43A81 /* KKFileBrowserDatabaseItemViewController.m in Sources */,
 				9FC521EFB8FBB728B21879362275BE3F /* KKFileBrowserDatabaseTableViewController.m in Sources */,
-				7517DE523F2166E0D1DC243DFF0F3451 /* KKFileBrowserInfo.m in Sources */,
+				7517DE523F2166E0D1DC243DFF0F3451 /* KKFileBrowserInfo+KKFileBrowser.m in Sources */,
 				E8986498BA41A7F6DF1B5892DE401CB2 /* KKFileDirectoryViewController.m in Sources */,
 				EF54E38F7007B55C3BB31153F9D5FCCE /* KKFileListViewController.m in Sources */,
 				3181DEAB70F5DAA7C7412F962677694F /* KKQLPreviewController.m in Sources */,

@@ -9,7 +9,6 @@
 #define KKFileBrowser_h
 
 #import "KKFileDirectoryViewController.h"
-#import "KKFileBrowserInfo.h"
 #import "KKFileListViewController.h"
 
 #endif /* KKFileBrowser_h */

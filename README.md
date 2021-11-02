@@ -21,13 +21,19 @@ KKFileBrowser依赖FMDB、MJExtension。
 1、首先Podfile导入
 ```
 #建议在使用的时候指定版本号
-pod 'KKFileBrowser', '~> 1.0.8'
+pod 'KKFileBrowser', '~> 1.1.0'
 ```
 2、工程使用
 ```objective-c
 //首先导入头文件 #import <KKFileBrowser/KKFileBrowser.h>
-//paths可以自定义文件夹路径，可以快捷跳转。
+
+//第一种： paths可以自定义文件夹路径，可以快捷跳转。【KKFileDirectoryViewController】
 KKFileDirectoryViewController *vc = [[KKFileDirectoryViewController alloc] initWithPaths:@[]];
+[self.navigationController pushViewController:vc animated:YES];
+
+//第二种：path填写需要预览的文件夹路径，不要填文件路径【KKFileListViewController】
+NSString *path = @"/Users";
+KKFileListViewController *vc = [[KKFileListViewController alloc] initWithPath:path];
 [self.navigationController pushViewController:vc animated:YES];
 ```
 
@@ -77,3 +83,21 @@ KKFileDirectoryViewController *vc = [[KKFileDirectoryViewController alloc] initW
   [3]: https://github.com/HansenCCC/HSIPAReplaceIcon
   [4]: https://github.com/HansenCCC/QMKKXProduct
   [5]: https://github.com/HansenCCC/KKFileBrowser
+
+
+
+## 更新
+ 
+```
+2021.11.01  1.1.0版本，整理代码，移除不相关累赘代码
+2021.10.20  1.0.8版本，update readme
+2021.10.20  1.0.7版本，【不建议使用此版本】
+2021.08.19  1.0.6版本，公开KKFileListViewController【不建议使用此版本】
+2021.08.12  1.0.5版本，降低deployment_target版本【不建议使用此版本】
+2021.08.12  1.0.4版本，tag增加，podspec编辑【不建议使用此版本】
+2021.08.12  1.0.3版本，增加数据库预览功能【不建议使用此版本】
+2021.08.07  1.0.2版本，podspec编写【不建议使用此版本】
+2021.08.07  1.0.1版本，podspec编写【不建议使用此版本】
+2021.08.07  1.0.0版本，新的版本从这里开始【不建议使用此版本】
+
+```

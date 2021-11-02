@@ -6,7 +6,7 @@
 //
 
 #import "UIImage+KKFileBrowser.h"
-#import "KKFileBrowserInfo.h"
+#import "KKFileBrowserInfo+KKFileBrowser.h"
 
 @implementation UIImage (KKFileBrowser)
 

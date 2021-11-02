@@ -9,6 +9,26 @@
 #import "KKFileDirectoryViewController.h"
 #import "KKFileBrowserCollectionViewCell.h"
 #import "KKFileListViewController.h"
+#import "KKFileBrowserInfo+KKFileBrowser.h"
+
+
+@implementation KKFileBrowserInfo
+
+/// 快速初始化
+/// @param name 文件名字
+/// @param path 路径
+- (instancetype)initWithName:(NSString *)name path:(NSString *)path{
+    self = [self init];
+    if (!self) {
+        return nil;
+    }
+    self.fileName = name;
+    self.filePath = path;
+    return self;
+}
+
+@end
+
 
 @interface KKFileDirectoryViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 

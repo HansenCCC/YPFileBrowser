@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKFileBrowser'
-  s.version          = '1.0.8'
+  s.version          = '1.1.0'
   s.summary          = '一个非常实用的文件浏览工具，可以预览图片，也可以可视化数据库。'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files = [
           'KKFileBrowser/Classes/KKFileBrowser.h',
-          'KKFileBrowser/Classes/KKFileBrowserInfo.h',
           'KKFileBrowser/Classes/KKFileDirectoryViewController.h',
           'KKFileBrowser/Classes/KKFileListViewController.h',
   ]

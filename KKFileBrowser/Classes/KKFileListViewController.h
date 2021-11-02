@@ -10,13 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-extern NSString *const KNSUserDefaultsFileBrowserStyle;
-
-typedef enum : NSUInteger {
-    KKFileBrowserDefaultStyle,
-    KKFileBrowserWindowsStyle,
-} KKFileBrowserStyle;
-
 @interface KKFileListViewController : UIViewController
 
 - (instancetype)initWithPath:(NSString *)path;

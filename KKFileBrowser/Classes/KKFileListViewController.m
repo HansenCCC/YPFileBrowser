@@ -7,13 +7,19 @@
 //
 
 #import "KKFileListViewController.h"
-#import "KKFileBrowserInfo.h"
+#import "KKFileBrowserInfo+KKFileBrowser.h"
 #import "KKFileBrowserCollectionViewCell.h"
 #import "NSString+KKFileBrowser.h"
 #import "KKQLPreviewController.h"
 #import "KKFileBrowserDatabaseTableViewController.h"
 
-NSString *const KNSUserDefaultsFileBrowserStyle = @"KNSUserDefaultsFileBrowserStyle";
+
+typedef enum : NSUInteger {
+    KKFileBrowserDefaultStyle,
+    KKFileBrowserWindowsStyle,
+} KKFileBrowserStyle;
+
+static NSString *const KNSUserDefaultsFileBrowserStyle = @"KNSUserDefaultsFileBrowserStyle";
 
 @interface KKFileListViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, QLPreviewControllerDataSource, QLPreviewControllerDelegate>
 

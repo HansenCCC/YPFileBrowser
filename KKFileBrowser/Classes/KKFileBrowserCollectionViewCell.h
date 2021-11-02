@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KKFileBrowserInfo.h"
+#import "KKFileBrowserInfo+KKFileBrowser.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
