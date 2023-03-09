@@ -1,6 +1,0 @@
-framework module Pods_KKFileBrowser_Example {
-  umbrella header "Pods-KKFileBrowser_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

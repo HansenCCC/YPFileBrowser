@@ -1,29 +1,16 @@
 PODS:
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - KKFileBrowser (1.0.2):
-    - FMDB
-    - MJExtension
-  - MJExtension (3.3.0)
+  - YPFileBrowser (2.0.0)
 
 DEPENDENCIES:
-  - KKFileBrowser (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FMDB
-    - MJExtension
+  - YPFileBrowser (from `../`)
 
 EXTERNAL SOURCES:
-  KKFileBrowser:
+  YPFileBrowser:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  KKFileBrowser: d38b936a79a4987e9986d5a1757b8738de0a36ed
-  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  YPFileBrowser: 68ca91103feab20717e28474b5fc91a3b9d56249
 
-PODFILE CHECKSUM: eb92f5c063c4c1df52072c9c554fb713da9543d3
+PODFILE CHECKSUM: b35b4b51056b1d858910ca11f6ca73e34eacb1af
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

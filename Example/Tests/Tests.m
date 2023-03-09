@@ -1,9 +1,9 @@
 //
-//  KKFileBrowserTests.m
-//  KKFileBrowserTests
+//  YPFileBrowserTests.m
+//  YPFileBrowserTests
 //
-//  Created by chenghengsheng on 08/03/2021.
-//  Copyright (c) 2021 chenghengsheng. All rights reserved.
+//  Created by 18319825 on 03/08/2023.
+//  Copyright (c) 2023 18319825. All rights reserved.
 //
 
 @import XCTest;

@@ -1,0 +1,6 @@
+framework module YPFileBrowser {
+  umbrella header "YPFileBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

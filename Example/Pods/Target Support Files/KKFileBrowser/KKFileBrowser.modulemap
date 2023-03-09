@@ -1,6 +1,0 @@
-framework module KKFileBrowser {
-  umbrella header "KKFileBrowser-umbrella.h"
-
-  export *
-  module * { export * }
-}

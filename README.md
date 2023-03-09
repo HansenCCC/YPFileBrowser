@@ -1,44 +1,61 @@
-# KKFileBrowser
+# YPFileBrowser
 
-[![Build Status](https://img.shields.io/badge/Github-QMKKXProduct-brightgreen.svg)](https://github.com/HansenCCC/KKFileBrowser)
-[![Build Status](https://img.shields.io/badge/platform-ios-orange.svg)](https://github.com/HansenCCC/KKFileBrowser)
+[![Build Status](https://img.shields.io/badge/Github-QMKKXProduct-brightgreen.svg)](https://github.com/HansenCCC/YPFileBrowser)
+[![Build Status](https://img.shields.io/badge/platform-ios-orange.svg)](https://github.com/HansenCCC/YPFileBrowser)
 [![Build Status](https://img.shields.io/badge/HansenCCC-Github-blue.svg)](https://github.com/HansenCCC)
 [![Build Status](https://img.shields.io/badge/HansenCCC-知乎-lightgrey.svg)](https://www.zhihu.com/people/EngCCC)
 [![Build Status](https://img.shields.io/badge/已上架AppStore-Apple-success.svg)](https://apps.apple.com/cn/app/ios%E5%AE%9E%E9%AA%8C%E5%AE%A4/id1568656582)
 
-### 这是一个非常实用的文件浏览工具。
-KKFileBrowser工具常用于开发调试，可以帮我们开发者快速导出APP项目文件。也可以快速预览文件内容，支持的格式有音视频、word文档、PPT、图像等。基于FMDB，我在里面加了快速预览数据库的功能，可以直接把表单呈现出来，对数据进行修改删除操作。
+可以帮助开发人员快速导出和预览应用程序中的各种文件类型。该库支持多种常见的文件格式，包括音频、视频、Word文档、PPT、图像等。
+
+<br/>
 
 ### 效果
-<img src="https://pic4.zhimg.com/80/v2-580b80d35ca2cd21586c18eb448e811b.jpg">
 
-------------
+![效果.png](https://picx.zhimg.com/80/v2-009acf5105b6cefa651a416b4c39d4fa_1440w.png)
 
-### 依赖
-KKFileBrowser依赖FMDB、MJExtension。
+<br/>
 
-### 如何使用
-1、首先Podfile导入
-```
-#建议在使用的时候指定版本号
-pod 'KKFileBrowser', '~> 1.1.0'
-```
-2、工程使用
-```objective-c
-//首先导入头文件 #import <KKFileBrowser/KKFileBrowser.h>
+### 特性
 
-//第一种： paths可以自定义文件夹路径，可以快捷跳转。【KKFileDirectoryViewController】
-KKFileDirectoryViewController *vc = [[KKFileDirectoryViewController alloc] initWithPaths:@[]];
-[self.navigationController pushViewController:vc animated:YES];
+- 文件导出：可以将应用程序中的文件导出到本地文件系统中，方便开发人员进行调试和分析。
+- 文件预览：可以在应用程序内直接预览文件内容，而无需使用其他应用程序打开。
+- 支持多种文件格式：YPFileBrowser 支持多种常见的文件格式，包括但不限于音频、视频、Word文档、PPT、图像等。
+- 显示文件信息：YPFileBrowser 可以显示文件的详细信息，如文件大小、创建日期、最后修改日期等。
+- 自定义界面：YPFileBrowser 可以根据开发人员的需求进行自定义界面配置。
 
-//第二种：path填写需要预览的文件夹路径，不要填文件路径【KKFileListViewController】
-NSString *path = @"/Users";
-KKFileListViewController *vc = [[KKFileListViewController alloc] initWithPath:path];
-[self.navigationController pushViewController:vc animated:YES];
+<br/>
+
+### 安装
+
+可以通过CocoaPods来安装YPFileBrowser。在你的Podfile中加入：
+
+```ruby
+pod 'YPFileBrowser'
 ```
 
+<br/>
 
-***
+### 快速使用
+
+YPFileBrowser非常易于使用，只需要进行一些基本的配置即可。以下是一个简单的示例：
+
+```objectivec
+#import <YPFileBrowser/YPFileBrowser.h>
+
+- (void)showFileBrowserAction:(UIButton *)sender {
+    // 创建YPFileBrowser对象
+    YPFileBrowser *fileBrowser = [[YPFileBrowser alloc] initWithPath:NSHomeDirectory()];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:fileBrowser];
+    nav.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    [self presentViewController:nav animated:YES completion:nil];
+}
+
+```
+
+以上示例创建了一个 YPFileBrowser 对象，并将其添加到当前视图控制器中。其中 path 是需要预览的文件目录，代表着你要浏览的文件所在的路径。
+
+<br/>
 
 ### 可支持一下格式
 
@@ -52,43 +69,13 @@ KKFileListViewController *vc = [[KKFileListViewController alloc] initWithPath:pa
 |RTF格式|rtf|
 |PDF格式|pdf|
 |文本文件|txt|
-|数据库预览|db、sqlite|
 
+<br/>
 
-----------
+### 更新日志
 
-# 我
-#### Created by 程恒盛 on 2019/10/24.
-#### Copyright © 2019 力王. All rights reserved.
-#### QQ:2534550460@qq.com  GitHub:https://github.com/HansenCCC  tel:13767141841
-#### copy请标明出处，感谢，谢谢阅读
-
-----------
-
-#### 你还对这些感兴趣吗
-
-1、[iOS实现HTML H5秒开、拦截请求替换资源、优化HTML加载速度][1]
-
-2、[超级签名中最重要的一步：跳过双重认证，自动化脚本添加udid并下载描述文件（证书和bundleid不存在时，会自动创建）][2]
-
-3、[脚本自动化批量修改ipa的icon、启动图、APP名称等(demo只修改icon，其他原理一样)、重签ipa][3]
-
-4、[QMKKXProduct iOS技术分享][4]
-
-5、[KKFileBrowser 快速预览本地文件（可以查看数据库）][5]
-
-
-  [1]: https://github.com/HansenCCC/KKQuickDraw
-  [2]: https://github.com/HansenCCC/HSAddUdids
-  [3]: https://github.com/HansenCCC/HSIPAReplaceIcon
-  [4]: https://github.com/HansenCCC/QMKKXProduct
-  [5]: https://github.com/HansenCCC/KKFileBrowser
-
-
-
-## 更新
- 
 ```
+2023.03.09  2.0.0版本，删除了数据库预览功能，有点鸡肋，需要看数据可以直接导出来。修改后缀名从 KK => YP
 2021.11.01  1.1.0版本，整理代码，移除不相关累赘代码
 2021.10.20  1.0.8版本，update readme
 2021.10.20  1.0.7版本，【不建议使用此版本】
