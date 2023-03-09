@@ -6,15 +6,13 @@
 [![Build Status](https://img.shields.io/badge/HansenCCC-知乎-lightgrey.svg)](https://www.zhihu.com/people/EngCCC)
 [![Build Status](https://img.shields.io/badge/已上架AppStore-Apple-success.svg)](https://apps.apple.com/cn/app/ios%E5%AE%9E%E9%AA%8C%E5%AE%A4/id1568656582)
 
-可以帮助开发人员快速导出和预览应用程序中的各种文件类型。该库支持多种常见的文件格式，包括音频、视频、Word文档、PPT、图像等。
+YPFileBrowser 可以帮助开发人员快速导出和预览应用程序中的各种文件类型。该库支持多种常见的文件格式，包括音频、视频、Word文档、PPT、图像等。
 
-<br/>
 
 ### 效果
 
 ![效果.png](https://picx.zhimg.com/80/v2-009acf5105b6cefa651a416b4c39d4fa_1440w.png)
 
-<br/>
 
 ### 特性
 
@@ -24,7 +22,6 @@
 - 显示文件信息：YPFileBrowser 可以显示文件的详细信息，如文件大小、创建日期、最后修改日期等。
 - 自定义界面：YPFileBrowser 可以根据开发人员的需求进行自定义界面配置。
 
-<br/>
 
 ### 安装
 
@@ -34,7 +31,6 @@
 pod 'YPFileBrowser'
 ```
 
-<br/>
 
 ### 快速使用
 
@@ -55,7 +51,6 @@ YPFileBrowser非常易于使用，只需要进行一些基本的配置即可。�
 
 以上示例创建了一个 YPFileBrowser 对象，并将其添加到当前视图控制器中。其中 path 是需要预览的文件目录，代表着你要浏览的文件所在的路径。
 
-<br/>
 
 ### 可支持一下格式
 
@@ -70,7 +65,6 @@ YPFileBrowser非常易于使用，只需要进行一些基本的配置即可。�
 |PDF格式|pdf|
 |文本文件|txt|
 
-<br/>
 
 ### 更新日志
 
