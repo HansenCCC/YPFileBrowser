@@ -10,7 +10,7 @@ YPFileBrowser 这是一个轻量级非常适合开发者调试的文件浏览工
 
 ### 效果
 
-![效果.png](https://picx.zhimg.com/80/v2-009acf5105b6cefa651a416b4c39d4fa_1440w.png)
+![效果.png](https://picx.zhimg.com/80/v2-009acf5105b6cefa651a416b4c39d4fa.png)
 
 
 ### 特性
